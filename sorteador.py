@@ -1,14 +1,14 @@
 import random 
 
 duplas = [
-    "Dupla 1",
-    "Dupla 2",
-    "Dupla 3",
-    "Dupla 4",
-    "Dupla 5",
-    "Dupla 6",
-    "Dupla 7",
-    "Dupla 8",
+    "Dupla 1: João ²",
+    "Dupla 2: Kauan e Gabriel",
+    "Dupla 3: Eloyse e Camila",
+    "Dupla 4: Antonio e Emily",
+    "Dupla 5: Jean e Kaynã",
+    "Dupla 6 : Josias e André",
+    "Dupla 7: Guilherme e Bruno",
+    "Dupla 8: Diego e Leo",
 ]
 
 cenarios = [
@@ -19,40 +19,9 @@ cenarios = [
     "Cenário 5",
     "Cenário 6",
     "Cenário 7",
-    "Cenário 8",
+    "Cenário 8",    
 ]
-
 random.shuffle(cenarios)
 
 for dupla,cenario in zip(duplas,cenarios):
-    print(f"Dupla {dupla} -> {cenario}")
-    
-#------------------------------------------------------#
-import random 
-
-duplas = [
-    "Dupla 1",
-    "Dupla 2",
-    "Dupla 3",
-    "Dupla 4",
-    "Dupla 5",
-    "Dupla 6",
-    "Dupla 7",
-    "Dupla 8",
-]
-
-cenarios = [
-    "Cenário 1",
-    "Cenário 2",
-    "Cenário 3",
-    "Cenário 4",
-    "Cenário 5",
-    "Cenário 6",
-    "Cenário 7",
-    "Cenário 8",
-]
-
-for dupla, cenario in zip(duplas,cenarios):
-    print(f"Dupla {dupla} -----> {cenario}")
-    
-    # print(list(zip(duplas,cenarios)))
+    print(f"Dupla {dupla} -------> {cenario}")
